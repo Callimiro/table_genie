@@ -36,8 +36,33 @@ export default function Home() {
           {/* CARDS */}
           <div className='felx justify-wrap py-5 m-10'>
             {/* CARD */}
-            <div></div>
-            <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+            <div className='w-64 h-100 bg-black m-2 rounded border overflow-hidden cursor-pointer'>
+              <div className="md:flex-shrink-0">
+                <img className="h-48 w-full object-cover  max-w-full" src="https://resizer.otstatic.com/v2/photos/wide-medium/1/25981520.jpg" alt="Your image"></img>
+              </div>
+
+              <div className='bg-white p-2'>
+              <h1 className='text-black text-2xl mb-2'>101 Holiday Inn</h1>
+                <div className='bg-white flex justify-between items-start mb-2'>
+                  <div className='flex'>
+                    <svg className="w-5 h-5 fill-current text-orange-500" viewBox="0 0 24 24"><path d="M12 16.56l-5.93 3.61 1.79-6.16L3.34 9.79l6.22-.53L12 3.98l2.44 5.28 6.22.53-4.52 3.22 1.79 6.16L12 16.56z"></path></svg>
+                    <svg className="w-5 h-5 fill-current text-orange-500" viewBox="0 0 24 24"><path d="M12 16.56l-5.93 3.61 1.79-6.16L3.34 9.79l6.22-.53L12 3.98l2.44 5.28 6.22.53-4.52 3.22 1.79 6.16L12 16.56z"></path></svg>
+                    <svg className="w-5 h-5 fill-current text-orange-500" viewBox="0 0 24 24"><path d="M12 16.56l-5.93 3.61 1.79-6.16L3.34 9.79l6.22-.53L12 3.98l2.44 5.28 6.22.53-4.52 3.22 1.79 6.16L12 16.56z"></path></svg>
+                    <svg className="w-5 h-5 fill-current text-orange-500" viewBox="0 0 24 24"><path d="M12 16.56l-2.76 1.67.66-2.27L6.68 9.79l2.76-.24L12 4.95l1.56 3.36 2.76.24-2.11 1.5.66 2.27L12 16.56z"></path></svg>
+                    <svg className="w-5 h-5 fill-current text-gray-400" viewBox="0 0 24 24"><path d="M12 16.56l-5.93 3.61 1.79-6.16L3.34 9.79l6.22-.53L12 3.98l2.44 5.28 6.22.53-4.52 3.22 1.79 6.16L12 16.56z"></path></svg>
+                  </div>
+                  <h3 className='text-black mb-2 text-right' >1 review</h3>
+                </div>
+                <div className='text-black'>
+                  <h3>Mediterranean . $$$$ . Algires</h3>
+                </div>
+                <div className='flex items-center justify-center'>
+                  <button className='bg-white border text-orange-500 rounded py-2 px-9 m-3' >Find next available</button>
+                </div>
+              </div>
+
+            </div>
+{/*             <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden">
               <div className="md:flex">
                 <div className="md:flex-shrink-0">
                   <Image className="h-48 w-full object-cover md:w-48 max-w-full" src="https://resizer.otstatic.com/v2/photos/wide-medium/1/25981520.jpg" alt="Your image" width={300} height={300}></Image>
@@ -67,7 +92,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-gray-900">Le 101 Holiday Inn Algiers - Cheraga Tower</h3>
               </div>
             </div>
-            {/* CARD */}
+ */}            {/* CARD */}
           </div>
           {/* CARDS */}
         </main>
