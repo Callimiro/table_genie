@@ -27,18 +27,18 @@ export default function Home() {
               {/* SearchBar */}
               <div className='flex justify-center m-auto py-3 text-left'>
                 <input className='bg-white text-gray-400 border rounded p-2 mr-3 w-80' type="text" placeholder='Location, Restaurant, or Cuisine' />
-                <button className='bg-red-700 px-9 py-2 rounded ml-3'>Let's go</button>
+                <button className='bg-red-600 px-9 py-2 rounded ml-3'>Let's go</button>
               </div>
               {/* SearchBar */}
             </div>
           </div>
           {/* Header */}
           {/* CARDS */}
-          <div className='felx justify-wrap py-5 m-10'>
+          <div className='felx justify-wrap py-5 m-10 '>
             {/* CARD */}
-            <div className='w-64 h-100 bg-black m-2 rounded border overflow-hidden cursor-pointer'>
+            <div className='w-64 h-100 bg-black m-2 rounded border overflow-hidden cursor-pointer group hover:transform hover:-translate-y-1 transition duration-200 hover:shadow-md'>
               <div className="md:flex-shrink-0">
-                <img className="h-48 w-full object-cover  max-w-full" src="https://resizer.otstatic.com/v2/photos/wide-medium/1/25981520.jpg" alt="Your image"></img>
+                <img className="h-48 w-full object-cover  max-w-full transition duration-300 transform group-hover:scale-105" src="https://resizer.otstatic.com/v2/photos/wide-medium/1/25981520.jpg" alt="Your image"></img>
               </div>
 
               <div className='bg-white p-2'>
@@ -53,11 +53,23 @@ export default function Home() {
                   </div>
                   <h3 className='text-black mb-2 text-right' >1 review</h3>
                 </div>
-                <div className='text-black'>
-                  <h3>Mediterranean . $$$$ . Algires</h3>
+                <div className='text-black pb-2 flex items-start'>
+                  <div className='flex items-start justify-between'>
+                    <h3 className='mr-3'>Mediterranean</h3>
+                    <h3 className='mr-3'>$$$$</h3>
+                    <h3 className='mr-3'>Algires</h3>
+                  </div>
                 </div>
-                <div className='flex items-center justify-center'>
-                  <button className='bg-white border text-orange-500 rounded py-2 px-9 m-3' >Find next available</button>
+                <div className='text-black mb-2 text-left '>
+                  <p className='font-bold text-sm'>Booked N times Today</p>
+                </div>
+                <div className='flex items-start justify-start mb-2'>
+                  <button className='bg-red-600 hover:bg-red-700 py-2 px-1 rounded mr-2'>18:30 PM</button>
+                  <button className='bg-red-600 hover:bg-red-700 py-2 px-1 rounded mr-2'>18:30 PM</button>
+                  <button className='bg-red-600 hover:bg-red-700 py-2 px-1 rounded'>18:30 PM</button>
+                </div>
+                <div className='flex items-center justify-center '>
+                  <button className='bg-white border text-orange-500 rounded py-2 px-9  w-full' >Find next available</button>
                 </div>
               </div>
 
