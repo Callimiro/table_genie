@@ -21,13 +21,14 @@ export default function Home() {
         {/* NAVBAR */}
         <main>
           {/* Header */}
+          
           <div className='h-64 bg-gradient-to-r from-[#0f1f47] to-[#5f6984] p-2'>
             <div className='text-center font-bold mt-10'>
-              <h1 className='text-white text-5xl mb-2'>Find your table for any occasion</h1>
+              <h1 className='text-white text-5xl mb-2 font-sans font-brandon'>Find your table for any occasion</h1>
               {/* SearchBar */}
               <div className='flex justify-center m-auto py-3 text-left'>
                 <input className='bg-white text-gray-400 border rounded p-2 mr-3 w-80' type="text" placeholder='Location, Restaurant, or Cuisine' />
-                <button className='bg-red-600 px-9 py-2 rounded ml-3'>Let's go</button>
+                <button className='bg-red-600 px-9 py-2 rounded ml-3 text-white'>Let's go</button>
               </div>
               {/* SearchBar */}
             </div>
@@ -64,9 +65,9 @@ export default function Home() {
                   <p className='font-bold text-sm'>Booked N times Today</p>
                 </div>
                 <div className='flex items-start justify-start mb-2'>
-                  <button className='bg-red-600 hover:bg-red-700 py-2 px-1 rounded mr-2'>18:30 PM</button>
-                  <button className='bg-red-600 hover:bg-red-700 py-2 px-1 rounded mr-2'>18:30 PM</button>
-                  <button className='bg-red-600 hover:bg-red-700 py-2 px-1 rounded'>18:30 PM</button>
+                  <button className='text-white bg-red-600 hover:bg-red-700 py-2 px-1 rounded mr-2'>18:30 PM</button>
+                  <button className='text-white bg-red-600 hover:bg-red-700 py-2 px-1 rounded mr-2'>18:30 PM</button>
+                  <button className='text-white bg-red-600 hover:bg-red-700 py-2 px-1 rounded'>18:30 PM</button>
                 </div>
                 <div className='flex items-center justify-center '>
                   <button className='bg-white border text-orange-500 rounded py-2 px-9  w-full' >Find next available</button>
