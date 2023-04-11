@@ -96,6 +96,63 @@ export default function Home() {
               <img className='w-56 h-44 mr-1 mb-1 object-cover rounded' src="https://resizer.otstatic.com/v2/photos/xlarge/2/50334385.jpg" alt="" />
             </div>
             {/* IMAGES */}
+            {/* Reviews */}
+            <div>
+              <h1 className='font-bold text-3xl mt-10 mb-7 border-b pb-5'>
+                What 100 people are saying
+              </h1>
+            </div>
+            {/* Reviews */}
+            {/* Review Card */}
+            <div className="border-b pb-7 mb-7">
+              <div className="flex">
+                <div className="w-1/6 flex flex-col items-center">
+                <div className="rounded-full bg-blue-400 w-16 h-16 flex items-center justify-center">
+                  <h2 className="text-white text-2xl">
+                  RA
+                  </h2>
+                </div>
+                  <p className='text-center'>
+                    Rassim Medkour
+                    </p>
+                </div>
+                <div className="ml-10 w-5/6">
+                  <div className="flex items-center">
+              <svg className="w-5 h-5 fill-current text-orange-500" viewBox="0 0 24 24">
+                <path
+                  d="M12 16.56l-5.93 3.61 1.79-6.16L3.34 9.79l6.22-.53L12 3.98l2.44 5.28 6.22.53-4.52 3.22 1.79 6.16L12 16.56z">
+                </path>
+              </svg>
+              <svg className="w-5 h-5 fill-current text-orange-500" viewBox="0 0 24 24">
+                <path
+                  d="M12 16.56l-5.93 3.61 1.79-6.16L3.34 9.79l6.22-.53L12 3.98l2.44 5.28 6.22.53-4.52 3.22 1.79 6.16L12 16.56z">
+                </path>
+              </svg>
+              <svg className="w-5 h-5 fill-current text-orange-500" viewBox="0 0 24 24">
+                <path
+                  d="M12 16.56l-5.93 3.61 1.79-6.16L3.34 9.79l6.22-.53L12 3.98l2.44 5.28 6.22.53-4.52 3.22 1.79 6.16L12 16.56z">
+                </path>
+              </svg>
+              <svg className="w-5 h-5 fill-current text-orange-500" viewBox="0 0 24 24">
+                <path
+                  d="M12 16.56l-2.76 1.67.66-2.27L6.68 9.79l2.76-.24L12 4.95l1.56 3.36 2.76.24-2.11 1.5.66 2.27L12 16.56z">
+                </path>
+              </svg>
+              <svg className="w-5 h-5 fill-current text-gray-400" viewBox="0 0 24 24">
+                <path
+                  d="M12 16.56l-5.93 3.61 1.79-6.16L3.34 9.79l6.22-.53L12 3.98l2.44 5.28 6.22.53-4.52 3.22 1.79 6.16L12 16.56z">
+                </path>
+              </svg>
+                  </div>
+                  <div className='mt-5'>
+                    <p className='text-lg font-light'>
+                      A lovely place to stop for good and drinks. Quirky surroundings that offer hours of viewing! The food was tasty, service was excellent. Friendly, chatty staff who made you feel very welcome. Definitely worth a visit and I will be back again next time.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* Review Card */}
         </div>
         </div>
 
