@@ -59,6 +59,19 @@ export default function Home() {
               </div>
             </div>
           </div>
+          {/* Search SideBar */}
+          <div className='w-5/6'>
+            {/* RESTAURANT CARD */}
+            <div className="border-b flex pb-5">
+              <img className='rounded w-44' src="https://resizer.otstatic.com/v2/photos/legacy/3/41955669.jpg" alt="" />
+            <div className="pl-5">
+                <h2 className="text-3xl">
+                  
+                </h2>
+            </div>
+            </div>
+          </div>
+          {/* Search SideBar */}
         </div>
         {/* Header */}
       </main>
