@@ -66,8 +66,50 @@ export default function Home() {
               <img className='rounded w-44' src="https://resizer.otstatic.com/v2/photos/legacy/3/41955669.jpg" alt="" />
             <div className="pl-5">
                 <h2 className="text-3xl">
-                  
+                  Pamelas at Pikes Ibiza
                 </h2>
+                <div className="flex items-start">
+                  <div className="flex mb-2">
+                    <svg className="w-5 h-5 fill-current text-orange-500" viewBox="0 0 24 24">
+                      <path
+                        d="M12 16.56l-5.93 3.61 1.79-6.16L3.34 9.79l6.22-.53L12 3.98l2.44 5.28 6.22.53-4.52 3.22 1.79 6.16L12 16.56z">
+                      </path>
+                    </svg>
+                    <svg className="w-5 h-5 fill-current text-orange-500" viewBox="0 0 24 24">
+                      <path
+                        d="M12 16.56l-5.93 3.61 1.79-6.16L3.34 9.79l6.22-.53L12 3.98l2.44 5.28 6.22.53-4.52 3.22 1.79 6.16L12 16.56z">
+                      </path>
+                    </svg>
+                    <svg className="w-5 h-5 fill-current text-orange-500" viewBox="0 0 24 24">
+                      <path
+                        d="M12 16.56l-5.93 3.61 1.79-6.16L3.34 9.79l6.22-.53L12 3.98l2.44 5.28 6.22.53-4.52 3.22 1.79 6.16L12 16.56z">
+                      </path>
+                    </svg>
+                    <svg className="w-5 h-5 fill-current text-orange-500" viewBox="0 0 24 24">
+                      <path
+                        d="M12 16.56l-2.76 1.67.66-2.27L6.68 9.79l2.76-.24L12 4.95l1.56 3.36 2.76.24-2.11 1.5.66 2.27L12 16.56z">
+                      </path>
+                    </svg>
+                    <svg className="w-5 h-5 fill-current text-gray-400" viewBox="0 0 24 24">
+                      <path
+                        d="M12 16.56l-5.93 3.61 1.79-6.16L3.34 9.79l6.22-.53L12 3.98l2.44 5.28 6.22.53-4.52 3.22 1.79 6.16L12 16.56z">
+                      </path>
+                    </svg>
+                    <p className="ml-2 text-sm">
+                      Exceptional
+                    </p>
+                  </div>
+                </div>
+                <div className="mb-9">
+                  <div className="font-light flex text-reg">
+                    <p className="mr-4">$$$</p>
+                    <p className="mr-4">Mexican</p>
+                    <p className="mr-4">Ottawa</p>
+                  </div>
+                </div>
+                <div className='text-red-600'>
+                  <a href="">View More Information</a>
+                </div>
             </div>
             </div>
           </div>
